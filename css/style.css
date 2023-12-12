@@ -203,7 +203,7 @@ html {
 }
 
 body {
-  background-color: #002733;
+  background-color: #a5141d;
 }
 
 .orange {
@@ -301,7 +301,7 @@ img {
   position: absolute;
   bottom: 0;
   z-index: -3;
-  background-color: #013747;
+  background-color: #c71b26;
   width: 80%;
   height: 80%;
 }
