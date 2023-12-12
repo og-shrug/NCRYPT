@@ -165,6 +165,7 @@ h1{
     width: 100%;
     gap: 100px;
     position: relative;
+    z-index: 1;
 }
 #image-carousel img{
     height: 100%;
