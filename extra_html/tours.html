@@ -1,128 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/tours.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> 
-    <title>Upcoming Tours</title>
-  </head>
-  <body>
-   
- <body>
-    
-<section class="card">
-    <div class="info">
-      <ul class="info-list">
-        <li class="current"><img src="https://cdn.arnellebalane.com/images/codepen-day85/artwork-1.jpg" alt="The Marcian"/>
-          <h1>The Martian</h1>
-          <p>
-            During a manned mission to Mars, Astronaut Mark Watney(Matt Damon) is presumed dead after a fierce storm and left
-            behind by his crew.
-          </p><span class="rating">9.1</span>
-        </li>
-        <li><img src="https://cdn.arnellebalane.com/images/codepen-day85/artwork-2.jpg" alt="Interstellar"/>
-          <h1>Interstellar</h1>
-          <p>
-            A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p><span class="rating">8.3</span>
-        </li>
-        <li><img src="https://cdn.arnellebalane.com/images/codepen-day85/artwork-3.jpg" alt="Gravity"/>
-          <h1>Gravity</h1>
-          <p>
-            An astronaut out of three is taken into a series of debris and starts orbiting around the Earth. She will have to stay extremely 
-            strong in order to keep her sanity.
-          </p><span class="rating">7.9</span>
-        </li>
-      </ul>
-    </div>
-    <footer class="actions"><span class="rating-container"></span>
-      <button class="cart">Book Movie</button>
-      <ul class="navigation">
-        <li class="current"></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </footer>
-    <form class="booking-form">
-      <button class="cancel">Cancel</button>
-      <p class="input">IMAX 3D</p>
-      <p class="input">Monday, 21<sup>st </sup>September - 18:00</p>
-      <p class="input">6 Adults</p>
-      <div class="seats">
-        <header>
-          <label class="legend"><span class="seat"></span><span class="legend-label">Available</span></label>
-          <label class="legend"><span class="seat taken"></span><span class="legend-label">Taken    </span></label>
-        </header>
-        <ul class="seats-container">
-          <li class="seats-row">
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-          </li>
-          <li class="seats-row">
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-          </li>
-          <li class="seats-row">
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-          </li>
-          <li class="seats-row">
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-          </li>
-          <li class="seats-row">
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-          </li>
-          <li class="seats-row">
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-          </li>
-          <li class="seats-row">
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-            <button class="seat" type="button"></button>
-          </li>
-        </ul>
-      </div>
-      <footer>
-        <label class="total-label">Total</label>
-        <p class="total-price">$56.90</p>
-        <button class="submit-button">Checkout</button>
-      </footer>
-    </form>
-  </section>
 
-    <script src = "../js/tours.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tours</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="../css/tours.css">
+</head>
+
+<body>
+    <div id="hero-slider">
+        <div id="logo" class="mask">
+            <span class="logo-text masked">Seedhe Maut</span>
+        </div>
+        <div id="slideshow">
+            <div id="slides-main" class="slides">
+                <div class="slide" data-index="0">
+                    <div class="abs-mask">
+                        <div class="slide-image" style="background-image: url(../img/tour1.jpg)"></div>
+                    </div>
+                </div>
+                <div class="slide" data-index="1">
+                    <div class="abs-mask">
+                        <div class="slide-image" style="background-image: url(../img/tour2.png)"></div>
+                    </div>
+                </div>
+                <div class="slide" data-index="2">
+                    <div class="abs-mask">
+                        <div class="slide-image" style="background-image: url(./assets/img/slide-3.jpg)"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="slides-aux" class="slides mask">
+                <h2 class="slide-title slide" data-index="0"><a href="#">मौत के शौकीन</a></h2>
+                <h2 class="slide-title slide" data-index="1"><a href="#">रेहम-ओ-करम</a></h2>
+                <h2 class="slide-title slide" data-index="2"><a href="#">Future Lights</a></h2>
+            </div>
+        </div>
+        <div id="info">
+            <div class="slider-title-wrapper">
+                <span class="line"></span>
+                <h1 class="slider-title">
+                    <span>Upcoming Tours</span>
+                </h1>
+            </div>
+        </div>
+        <nav id="slider-nav">
+            <span class="current">01</span>
+            <span class="sep"></span>
+            <span class="total">03</span>
+        </nav>
+    </div>
+    <script src="../js/tours.js"></script>
+</body>
+
 </html>
