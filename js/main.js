@@ -1,6 +1,6 @@
 const wrapper = document.querySelector("#wrapper");
 const carousel = document.querySelector("#image-carousel");
-const images = document.querySelectorAll("img");
+const images = document.querySelectorAll(".img-move");
 const btn = document.querySelectorAll("button");
 const previous = document.querySelector("#prev");
 const nxt = document.querySelector("#next");
@@ -30,7 +30,5 @@ const next = () => {
     console.log(counter);
   }
 };
-
-
 
 // END
