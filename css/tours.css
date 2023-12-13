@@ -117,7 +117,7 @@ body {
 #main {
   height: 100%;
   width: 100%;
-  background-image: url(../img/waves.png);
+  background-image: url(../img/tours_bg.png);
   background-size: cover;
   font-family: "Lilita One", sans-serif;
   display: flex;
